@@ -6,10 +6,11 @@
    <title>Low-Bit Productions Official Website</title>
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="main.css">
-
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+   <script src="jquery-3.4.1.js"></script>
 </head>
 
 <body>
@@ -24,11 +25,24 @@
                <li><a href="">Contact</a></li>
             </ul>
          </nav>
+         <navMobile>
+            <h2><a href="#">↓ Tap to Show Pages ↓</a></h2>
+            <div class="inner">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Projects</a></li>
+                  <li><a href="">Contact</a></li>
+               </ul>
+            </div>
+         </navMobile>
       </header>
-
+      <div class="headerImage">
+         <img class="headerImage" src="images/placeholder.png" alt="">
+      </div>
       <main>
          <section class="intro">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="Low-Bit Productions Logo">
             <h2>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
             <a class="button">Learn More</a>
@@ -36,13 +50,48 @@
          <section>
             <h2>Our Work</h2>
             <div class="media-gallery">
-               <img src="images/placeholder.png">
-               <img src="images/placeholder.png">
-               <img src="images/placeholder.png">
+               <div class="media-item">
+                  <img class="media-image" src="images/placeholder.png" alt="">
+                  <a href="hiddenPage.html"><img class="secretExample" src="images/secretexample.png"></a>
+                  <h3 class="withSecret">Project #1</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+               </div>
+               <div class="media-item">
+                  <img class="media-image" src="images/placeholder.png" alt="">
+                  <h3>Project #2</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+               </div>
+               <div class="media-item">
+                  <img class="media-image" src="images/placeholder.png" alt="">
+                  <h3>Project #3</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+               </div>
             </div>
             <a class="button">View More</a>
          </section>
-         <img class="secretExample" src="images/secretexample.png">
+         <section>
+         <h2>Latest News</h2>
+            <div class="news-gallery">
+               <div class="news-article">
+                  <img src="images/placeholder.png">
+                  <h3>News #1</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+                  <a class="button">Read More</a>
+               </div>
+               <div class="news-article">
+                  <img src="images/placeholder.png">
+                  <h3>News #2</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+                  <a class="button">Read More</a>
+               </div>
+               <div class="news-article">
+                  <img src="images/placeholder.png">
+                  <h3>News #3</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
+                  <a class="button">Read More</a>
+               </div>
+            </div>
+         </section>
          <section>
          <h2>Reviews</h2>
          <div class="review">
@@ -64,6 +113,12 @@
          </section>
       </footer>
    </div>
+
+   <script>
+      $("navMobile").click(function() {
+         $(this).find(".inner").slideToggle("slow");
+      });
+   </script>
 
 </body>
 </html>
