@@ -12,3 +12,52 @@
 
    <script src="jquery-3.4.1.js"></script>
 </head>
+
+<body>
+   <div class="wrapper">
+      <header>
+         <img src="images/logo.png" alt="">
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="">About Us</a></li>
+               <li><a href="">Projects</a></li>
+               <li><a href="">News</a></li>
+            </ul>
+         </nav>
+         <navMobile>
+            <h2><a href="#">↓ Tap to Show Pages ↓</a></h2>
+            <div class="inner">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Projects</a></li>
+                  <li><a href="">News</a></li>
+               </ul>
+            </div>
+         </navMobile>
+      </header>
+      <body>
+      </body>>
+      <footer>
+         <section>
+            <h3>Contact Us</h3>
+            <p>Email: hiring@retrobitproductions.com</p>
+            <p>Phone: (513)645-6469</p>
+            <p>Twitter: @lowbitproductions</p>
+         </section>
+         <section>
+            <p>2025-2026 Retro-Bit Productions</p>
+            <p>Page designed by <a href="https://bsky.app/profile/sa64ds.github.io">@sa64ds.github.io</a></p>
+         </section>
+      </footer>
+   </div>
+
+   <script>
+      $("navMobile").click(function() {
+         $(this).find(".inner").slideToggle("slow");
+      });
+   </script>
+
+</body>
+   </div>

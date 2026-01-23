@@ -27,7 +27,7 @@ body {
 header {
    display: flex;
    justify-content: space-between;
-   background-color: red;
+   background-color: darkgray;
    align-items: center;
    padding: 1rem;
    position: sticky;
@@ -51,13 +51,13 @@ nav a {
    display: block;
    color: white;
    text-decoration: none;
-   background-color: gray;
+   background-color: red;
    padding: 10px;
    border-radius: 10px;
    transition: linear 0.2s;
 }
 nav a:hover {
-   background-color: black;
+   background-color: darkred;
    cursor: pointer;
    transform: scale(1.1);
 }
@@ -166,6 +166,10 @@ main section:last-of-type {
    z-index: 1;
 }
 
+.media-gallery h3 {
+   margin-top: 10px;
+}
+
 .media-image {
    image-rendering: initial;
    width: 100%;
@@ -174,16 +178,10 @@ main section:last-of-type {
    border-radius: 1rem;
 }
 
-.media-gallery .withSecret {
-   margin-top: -33px;
-}
-
 .cilent {
    display: grid;
    grid-template-columns: 1fr 2fr;
 }
-
-
 
 .news-gallery {
    display: grid;
@@ -203,6 +201,10 @@ main section:last-of-type {
    border: red 5px solid;
    border-radius: 1rem;
    margin: auto;
+}
+
+.news-article h3 {
+   margin-top: 10px;
 }
 
 .secretExample {
@@ -246,7 +248,7 @@ footer {
    font-family: "Low Pixel", system-ui;
    grid-template-columns: 1fr 1fr;
    padding: 10px;
-   background-color: blue;
+   background-color: darkgray;
    font-size: 0.75rem;
    align-items: center;
 }
@@ -285,6 +287,9 @@ footer a:hover {
       grid-template-columns: 1fr;
    }
    .news-gallery {
+      grid-template-columns: 1fr;
+   }
+   .cilent {
       grid-template-columns: 1fr;
    }
 }
