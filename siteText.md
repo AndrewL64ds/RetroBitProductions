@@ -57,6 +57,10 @@ I'm very glad everyone at the studio liked the proof of concept I made of the si
 
 Right now, I’m writing all the text that will be featured on the website. Figured getting all the text out of the way would help me with finalizing the site layout. I’ll have Emerald take a look at the text later to make sure it fits the studio’s vibe. I know I’ve been working with them for a while so I should know this, but you can’t be too safe.
 
+### Week 2
+Once again, I procrastinated on working on the site. The team gave me a good amount of critqute about the site, namely the incosisient use of color.
+I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks...
+
 ## News Page
 ### Article #1
 Welcome to the Retro-Bit Productions Website!
@@ -67,6 +71,9 @@ After months of work, we are happy to finally release the Retro-Bit Productions 
 Our New Rebrand (News Archive)
 
 After a lot of consideration from the team, we’ve decided to officially rebrand from Low-Bit Productions to Retro-Bit Productions! We’re hoping this new name will keep the same vibe you know and love, while showing a more professional side of the studio.
+
+### Article #3
+
 
 ## News Hidden Page (Level Select & Credits)
 
