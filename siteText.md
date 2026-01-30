@@ -20,7 +20,7 @@ Founded by a gamer who has a passion for film-making, Retro-Bit Productions was 
 
 
 ### Emerald Description
-Helping us keep our business in 
+Helping us keep our business in check, Emerald is the secretary of the studio. 
 
 ### Phil Description
 Our head camera-man
@@ -59,7 +59,7 @@ Right now, I’m writing all the text that will be featured on the website. Figu
 
 ### Week 2
 Once again, I procrastinated on working on the site. The team gave me a good amount of critqute about the site, namely the incosisient use of color.
-I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks...
+I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks. One thing I said I was going to do was to start coding the About Us page. Now, while I have started working on it, it is nowhere near done.
 
 ## News Page
 ### Article #1
