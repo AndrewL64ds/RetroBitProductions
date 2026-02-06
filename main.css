@@ -281,7 +281,7 @@ footer {
    font-family: "Low Pixel", system-ui;
    grid-template-columns: 1fr 1fr;
    padding: 10px;
-   background-color: darkgray;
+   background-color: #797979;
    font-size: 0.75rem;
    align-items: center;
 }
@@ -362,6 +362,9 @@ article img {
    .cilent {
       grid-template-columns: 1fr;
    }
+   article {
+      grid-template-columns: 1fr;
+   }
 }
 
 /* PHONE Media Query
@@ -395,6 +398,8 @@ article img {
       text-align: center;
    }
    footer section:last-of-type {
+      border-top: white 1px dashed;
+      padding-top: 1rem;
       text-align: center;
    }
 }
