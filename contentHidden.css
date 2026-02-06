@@ -1,24 +1,47 @@
+@font-face {
+   font-family: 'Helvetica Rounded Bold';
+   src: url('fonts/Helvetica\ Rounded\ Bold.ttf') format('opentype');
+   font-weight: normal;
+   font-style: normal;
+}
+
 body {
-   background-image: url(images/sa64ds/bg.png);
-   background-size: 32px;
+   background-image: url(images/spark/bg.png);
 }
 
 .wrapper {
-   max-width: 800px;
-   margin: 2rem auto;
+   background-color: #0ba4f7;
+   border-left: rgb(140, 0, 0) 5px solid;
+   border-right: rgb(140, 0, 0) 5px solid;
+   max-width: 85%;
+   margin: 0 auto;
    padding: 1rem;
-   background-color: white;
+}
+
+main {
+   padding: 1rem;
+   font-family: 'Helvetica';
+   color: white;
 }
 
 h1 {
+   font-family: 'Helvetica Rounded Bold', system-ui;
+   font-size: 2rem;
    text-align: center;
-   font-size: 1.5rem;
-   font-family: "Press Start 2P", system-ui;
    margin-bottom: 1rem;
+   color: red;
 }
 
 h2 {
+   font-family: 'Helvetica Rounded Bold', system-ui;
    font-size: 1.5rem;
-   margin-bottom: 1rem;
-   border-bottom: 2px dotted #b21030;
+   border-bottom: white 2px dashed;
+   padding-bottom: 2px;
+   margin-bottom: 0.5rem;
+   color: red;
+}
+
+bio {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
 }

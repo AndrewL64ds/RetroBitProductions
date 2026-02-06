@@ -3,7 +3,11 @@
 ### Studio Tagline
 A production studio with a love for gaming
 
+### Studio Description
+
+
 ### SA64 Description
+
 
 ## Home Hidden Page (Strange Monsters)
 Breaking News! Strange Monsters Around the City
@@ -25,8 +29,23 @@ Helping us keep our business in check, Emerald is the secretary of the studio.
 ### Phil Description
 Our head camera-man
 
-## About Us Hidden Page (Undecided)
+## About Us Hidden Page (SA64's Digital Site Journal)
+(This will evolve as I actually make this website)
+### Week 1
+So, it’s already been a week of production of the site. Admittedly, I’ve been procrastinating on resuming my work on the site, but I’ve finally decided to get to work… at 11:30pm… don’t judge me. I decided to make this page as a sort of journal for working on this site. I'm not planning on having it be accessible, so no-one should notice unless they look at the repo for the site.
 
+I'm very glad everyone at the studio liked the proof of concept I made of the site, it gave me a lot of confidance that I could actually do this. Unfortunely, they decided to revise the branding of the studio before I started working on the site, so I had to fix it. They still haven't sent me the new logo yet... so I guess I have to use the old one when I show them the progress...
+
+Right now, I’m writing all the text that will be featured on the website. Figured getting all the text out of the way would help me with finalizing the site layout. I’ll have Emerald take a look at the text later to make sure it fits the studio’s vibe. I know I’ve been working with them for a while so I should know this, but you can’t be too safe.
+
+### Week 2
+Once again, I procrastinated on working on the site. The team gave me a good amount of critqute about the site, namely the incosisient use of color.
+I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks. One thing I said I was going to do was to start coding the About Us page. Now, while I have started working on it, it is nowhere near done.
+
+## Week 3
+Need I say more? I meant to work on this over the weekend, but FNF Sonic Jam came out on Saturday and that demolished my time. time around, I decided to switch my approach from working on new text to focusing on the artwork. The team wanted me to create NES-esque icons of them, so I decided to get to work on said icons. I managed to get Phil's done, as well as making some for me and Gem.
+
+I also managed to fix the external links. Turns out I had to put the link inside a paragraph with the class for it to work.
 
 ## Content Page
 ### Studio's own content
@@ -44,22 +63,12 @@ A synthetic companion with a very bubbly personality.
 ### SA64’s Latest Video
 Check out SA64’s latest video!
 
-*Mario Kart World isn’t that bad… but…*
+*Is the Nintendo Switch 2 that bad?*
 
 [Watch Now]
 
-## Content Hidden Page (SA64’s Thoughts and Feelings)
-(This will evolve as I actually make this website)
-### Week 1
-So, it’s already been a week of production of the site. Admittedly, I’ve been procrastinating on resuming my work on the site, but I’ve finally decided to get to work… at 11:30pm… don’t judge me. I decided to make this page as a sort of journal for working on this site. I'm not planning on having it be accessible, so no-one should notice unless they look at the repo for the site.
-
-I'm very glad everyone at the studio liked the proof of concept I made of the site, it gave me a lot of confidance that I could actually do this. Unfortunely, they decided to revise the branding of the studio before I started working on the site, so I had to fix it. They still haven't sent me the new logo yet... so I guess I have to use the old one when I show them the progress...
-
-Right now, I’m writing all the text that will be featured on the website. Figured getting all the text out of the way would help me with finalizing the site layout. I’ll have Emerald take a look at the text later to make sure it fits the studio’s vibe. I know I’ve been working with them for a while so I should know this, but you can’t be too safe.
-
-### Week 2
-Once again, I procrastinated on working on the site. The team gave me a good amount of critqute about the site, namely the incosisient use of color.
-I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks. One thing I said I was going to do was to start coding the About Us page. Now, while I have started working on it, it is nowhere near done.
+## Content Hidden Page (Spark's Corner)
+Welcome to Spark's Corner, featuring me, Spark the Hedgehog!
 
 ## News Page
 ### Article #1
@@ -73,7 +82,9 @@ Our New Rebrand (News Archive)
 After a lot of consideration from the team, we’ve decided to officially rebrand from Low-Bit Productions to Retro-Bit Productions! We’re hoping this new name will keep the same vibe you know and love, while showing a more professional side of the studio.
 
 ### Article #3
+Article Title
 
+Article Text
 
 ## News Hidden Page (Level Select & Credits)
 
