@@ -16,7 +16,7 @@
 <body>
    <div class="wrapper">
       <header>
-         <img src="images/logo.png" alt="">
+         <img src="images/logo.png" alt=""> <!-- The alt attribute can't be left empty -->
          <nav>
             <ul>
                <li><a href="index.html">Home</a></li>
@@ -25,7 +25,9 @@
                <li><a href="news.html">News</a></li>
             </ul>
          </nav>
-         <navMobile>
+      <!-- <navMobile>
+           navMobile isn't a valid element. Did you mean to add a CLASS to it named mobile? -->
+          <nav class="nav-mobile"><!-- added this instead -->
             <h2><a href="#">↓ Tap to Show Pages ↓</a></h2>
             <div class="inner">
                <ul>
@@ -35,17 +37,20 @@
                   <li><a href="news.html">News</a></li>
                </ul>
             </div>
-         </navMobile>
+         <!-- </navMobile> -->
+          </nav>
       </header>
       <div class="headerImage">
-         <img class="headerImage" src="images/placeholder.png" alt="">
+         <img class="headerImage" src="images/placeholder.png" alt=""> <!-- The alt attribute can't be left empty -->
       </div>
+
       <main>
          <section class="intro">
             <img class="introLogo" src="images/homePageLogo.gif" alt="Logo for Home Page">
             <h2>A production studio with a love for gaming</h2>
             <p class="button"><a href="aboutUs.html">Learn More</a></p>
          </section>
+
          <section>
             <h2>Our Work</h2>
             <div class="media-gallery">
@@ -54,19 +59,23 @@
                   <h3>Project #1</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
                </div>
+
                <div class="media-item">
                   <img class="media-image" src="images/placeholder.png" alt="">
                   <h3>Project #2</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
                </div>
+
                <div class="media-item">
                   <img class="media-image" src="images/placeholder.png" alt="">
                   <h3>Project #3</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.</p>
                </div>
+               
             </div>
             <p class="button"><a href="content.html">View More</a></p>
          </section>
+
          <section>
             <h2>Our Clients</h2>
             <img src="images/sa64ds/logo.png" alt="SA64 Logo" class="cilentLogo">
@@ -74,6 +83,7 @@
                <div>
                   <img src="images/sa64ds/sa64CharacterArt.png" alt="SA64 Character Art">
                </div>
+               
                <div>
                   <p>Love discussion about video games? SA64 talks all about video games and more on his own channel!</p>
                   <p class="button"><a href="https://www.youtube.com/@sa64ds">Subscribe on YouTube</a></p>
@@ -81,6 +91,7 @@
             </div>
          </section>
          <a href="indexHidden.html"><img class="secretExample" src="images/secret/monster/lemonSprite.png"></a>
+
          <section>
          <h2>Latest News</h2>
             <div class="news-gallery">
@@ -90,12 +101,14 @@
                   <p>After months of work, we are happy to finally release the Retro-Bit Productions website! This will be our hub for displaying everything Retro-Bit Productions and keep you guys up-to-date with everything we do!</p>
                   <a class="button">Read More</a>
                </div>
+
                <div class="news-article">
                   <img src="images/placeholder.png">
                   <h3>Our New Rebrand (News Archive)</h3>
                   <p>After a lot of consideration from the team, we’ve decided to officially rebrand from Low-Bit Productions to Retro-Bit Productions! We’re hoping this new name will keep the same vibe you know and love, while showing a more professional side of the studio.</p>
                   <a class="button">Read More</a>
                </div>
+
                <div class="news-article">
                   <img src="images/placeholder.png">
                   <h3>News #3</h3>
@@ -104,6 +117,7 @@
                </div>
             </div>
          </section>
+
          <section>
          <h2>Reviews</h2>
          <div class="review">
@@ -111,13 +125,14 @@
             <p>- Jeff</p>
          </div>
          </section>
-      </main>
+        </main>
+        
       <footer>
          <section>
             <h3>Contact Us</h3>
-            <p>Email: hiring@retrobitproductions.com</p>
+            <p>Email: <a href="mailto:hiring@retrobitproductions.com">hiring@retrobitproductions.com</a></p><!-- I made this an email link -->
             <p>Phone: (513)645-6469</p>
-            <p>Twitter: @lowbitproductions</p>
+            <p>X/Twitter: @lowbitproductions</p>
          </section>
          <section>
             <p>2025-2026 Retro-Bit Productions</p>
@@ -126,11 +141,21 @@
       </footer>
    </div>
 
+   <!-- navMobile isn't a valid element
    <script>
       $("navMobile").click(function() {
          $(this).find(".inner").slideToggle("slow");
       });
-   </script>
+   </script> -->
+
+   <!-- ⬇︎ Changed the script a bit and used class name -->
+  <script> 
+    $(".nav-mobile").click(function (e) {
+      e.preventDefault();  // prevents the # jump
+      $(this).find(".inner").slideToggle("slow");
+    });
+  </script>
+
 
 </body>
 </html>

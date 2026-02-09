@@ -22,9 +22,17 @@ body {
    background-color: #a2a2a2;
    border-left: black 5px solid;
    border-right: black 5px solid;
-   max-width: 85%;
+   /* max-width: 85%; */
+   max-width: 70rem; /* 🠰 I gave it a differnt maximum width */
    margin: 0 auto;
 }
+
+img { 
+  max-width: 100%; /* ⬅︎ this constrains the size of images on small screens */
+}
+
+/* Header
+------------------------------ */
 
 header {
    display: flex;
@@ -42,6 +50,15 @@ header img {
    width: 30%;
 }
 
+.headerImage {
+   margin: 0 auto;
+   display: block;
+   background-color: white;
+}
+
+
+/* Navigation
+------------------------------ */
 nav ul {
    list-style: none;
    display: flex;
@@ -63,6 +80,9 @@ nav a:hover {
    cursor: pointer;
    transform: scale(1.1);
 }
+
+/*  navMobile isn't a valid element. I recreated these rules below using a valid class name, instead
+
 navMobile {
    display: none;
 }
@@ -100,12 +120,51 @@ navMobile .inner a:hover {
 
 navMobile .inner {
    display: none;
+} */
+
+/* ⬇︎ I added these for the new class */
+.nav-mobile {
+   display: none;
 }
-.headerImage {
-   margin: 0 auto;
-   display: block;
-   background-color: white;
+
+.nav-mobile a {
+   color: white;
+   font-size: large;
 }
+
+.nav-mobile .inner ul {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   font-family: "Low Pixel", system-ui;
+}
+
+.nav-mobile .inner li {
+   margin: 1rem;
+}
+
+.nav-mobile .inner a {
+   color: white;
+   text-decoration: none;
+   background-color: #b21030;
+   padding: 10px;
+   border-radius: 10px;
+   transition: linear 0.2s;
+}
+
+.nav-mobile .inner a:hover {
+   background-color: black;
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.nav-mobile .inner {
+   display: none;
+}
+
+
+/* Main
+------------------------------ */
 
 main {
    padding: 2rem;
@@ -115,6 +174,19 @@ main {
 main p {
    line-height: 1.5rem;
 }
+
+main section {
+   margin-bottom: 2rem;
+}
+
+main section:last-of-type {
+   margin-bottom: 0;
+}
+
+
+
+/* Headings
+------------------------------ */
 
 h1 {
    color: #b21030;
@@ -136,6 +208,10 @@ h3 {
    font-size: 1.5rem;
    margin-bottom: 10px;
 }
+
+
+/* Introduction
+------------------------------ */
 
 .intro img {
    image-rendering: pixelated;
@@ -159,15 +235,10 @@ h3 {
    color: white;
 }
 
-main section {
-   margin-bottom: 2rem;
-}
-
-main section:last-of-type {
-   margin-bottom: 0;
-}
 
 
+/* Media Gallery
+------------------------------ */
 .media-gallery {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -276,6 +347,8 @@ main section:last-of-type {
    transform: scale(1.1);
 }
 
+/* Footer
+------------------------------ */
 footer {
    display: grid;
    font-family: "Low Pixel", system-ui;
@@ -301,6 +374,7 @@ footer a:hover {
    text-decoration: underline;
 }
 
+/* bio isn't a valid element. make this a class instead */
 bio {
    display: grid;
    grid-template-columns: 1fr 3fr;
@@ -308,6 +382,7 @@ bio {
    margin-bottom: 1rem;;
 }
 
+/* bio isn't a valid element. make this a class instead */
 bio img {
    image-rendering: pixelated;
    width: 128px;
@@ -383,13 +458,24 @@ article img {
    nav {
       display: none;
    }
+   /* navMobile isn't a valid element. I replaced it with a valid class name, instead.
+
    navMobile {
       display: block;
    }
    navMobile .inner a {
       display: block;
       font-size: 1.75rem;
+   } */
+
+  .nav-mobile {
+      display: block;
    }
+   .nav-mobile .inner a {
+      display: block;
+      font-size: 1.75rem;
+   }
+   
    .secretExample {
       left: -60%;
    }
