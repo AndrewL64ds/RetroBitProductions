@@ -45,3 +45,10 @@ bio {
    display: grid;
    grid-template-columns: 1fr 2fr;
 }
+bio img {
+   image-rendering: pixelated;
+   width: 128px;
+   margin: auto;
+   border: rgb(140, 0, 0) 5px solid;
+   grid-row: span 2;
+}

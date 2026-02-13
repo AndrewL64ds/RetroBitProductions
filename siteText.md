@@ -36,16 +36,19 @@ So, it’s already been a week of production of the site. Admittedly, I’ve bee
 
 I'm very glad everyone at the studio liked the proof of concept I made of the site, it gave me a lot of confidance that I could actually do this. Unfortunely, they decided to revise the branding of the studio before I started working on the site, so I had to fix it. They still haven't sent me the new logo yet... so I guess I have to use the old one when I show them the progress...
 
-Right now, I’m writing all the text that will be featured on the website. Figured getting all the text out of the way would help me with finalizing the site layout. I’ll have Emerald take a look at the text later to make sure it fits the studio’s vibe. I know I’ve been working with them for a while so I should know this, but you can’t be too safe.
+Right now, I’m writing all the text that will be featured on the website. Figured getting all the text out of the way would help me with finalizing the site layout. I’ll have Emmarelle take a look at the text later to make sure it fits the studio’s vibe. I know I’ve been working with them for a while so I should know this, but you can’t be too safe.
 
 ### Week 2
 Once again, I procrastinated on working on the site. The team gave me a good amount of critqute about the site, namely the incosisient use of color.
 I tried to do the tasks I set aside for myself, but I ended up doing a bunch of other different things that I also need to do for the website... maybe I should tweak my tasks. One thing I said I was going to do was to start coding the About Us page. Now, while I have started working on it, it is nowhere near done.
 
 ## Week 3
-Need I say more? I meant to work on this over the weekend, but FNF Sonic Jam came out on Saturday and that demolished my time. time around, I decided to switch my approach from working on new text to focusing on the artwork. The team wanted me to create NES-esque icons of them, so I decided to get to work on said icons. I managed to get Phil's done, as well as making some for me and Gem.
+Need I say more? I meant to work on this over the weekend, but FNF Sonic Jam came out on Saturday and that demolished my time. time around, I decided to switch my approach from working on new text to focusing on the artwork. The team wanted me to create NES-esque icons of them, so I decided to get to work on said icons. I managed to get Fill's done, as well as making some for me and Gem.
 
 I also managed to fix the external links. Turns out I had to put the link inside a paragraph with the class for it to work.
+
+## Week 4
+Turns out I mistyped Emmarelle and Fill's names the whole time... not sure how I missed that, since I've been working with them for a while now... I quickly went back and fixed that as soon as I found out.
 
 ## Content Page
 ### Studio's own content
