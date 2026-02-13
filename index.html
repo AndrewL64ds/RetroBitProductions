@@ -16,7 +16,7 @@
 <body>
    <div class="wrapper">
       <header>
-         <img src="images/logo.png" alt="">
+         <img src="images/logos/retrobit.png" alt="Retro-Bit Logo">
          <nav>
             <ul>
                <li><a href="index.html">Home</a></li>
@@ -25,7 +25,7 @@
                <li><a href="news.html">News</a></li>
             </ul>
          </nav>
-         <navMobile>
+         <nav class="nav-mobile">
             <h2><a href="#">↓ Tap to Show Pages ↓</a></h2>
             <div class="inner">
                <ul>
@@ -35,14 +35,14 @@
                   <li><a href="news.html">News</a></li>
                </ul>
             </div>
-         </navMobile>
+         </nav>
       </header>
       <div class="headerImage">
-         <img class="headerImage" src="images/placeholder.png" alt="">
+         <img class="headerImage" src="images/placeholder.png" alt="Retro-Bit Logo">
       </div>
       <main>
          <section class="intro">
-            <img class="introLogo" src="images/homePageLogo.gif" alt="Logo for Home Page">
+            <img class="introLogo" src="images/logos/retrobit-homePage.gif" alt="Logo for Home Page">
             <h2>A production studio with a love for gaming</h2>
             <p class="button"><a href="aboutUs.html">Learn More</a></p>
          </section>
@@ -67,20 +67,20 @@
             </div>
             <p class="button"><a href="content.html">View More</a></p>
          </section>
-         <a href="indexHidden.html" class="secret"><img class="interactable" src="images/secret/monster/lemonSprite.gif"></a>
+         <a href="indexHidden.html" class="indexSecret"><img class="interactable" title="You notice a faint smell of citrus..." src="images/secret/monster/lemonSprite.gif"></a>
          <section>
          <h2>Latest News</h2>
             <div class="news-gallery">
                <div class="news-article">
                   <img src="images/placeholder.png">
                   <h3>Welcome to the Retro-Bit Productions Website!</h3>
-                  <p>After months of work, we are happy to finally release the Retro-Bit Productions website! This will be our hub for displaying everything Retro-Bit Productions and keep you guys up-to-date with everything we do!</p>
+                  <p>After months of work, we are happy to finally release the Retro-Bit Productions website! This will be our hub for displaying everything Retro-Bit Productions...</p>
                   <a class="button">Read More</a>
                </div>
                <div class="news-article">
                   <img src="images/placeholder.png">
                   <h3>Our New Rebrand (News Archive)</h3>
-                  <p>After a lot of consideration from the team, we’ve decided to officially rebrand from Low-Bit Productions to Retro-Bit Productions! We’re hoping this new name will keep the same vibe you know and love, while showing a more professional side of the studio.</p>
+                  <p>After a lot of consideration from the team, we’ve decided to officially rebrand from Low-Bit Productions to Retro-Bit Productions! We’re hoping this new name will keep the same vibe...</p>
                   <a class="button">Read More</a>
                </div>
                <div class="news-article">
@@ -102,9 +102,9 @@
       <footer>
          <section>
             <h3>Contact Us</h3>
-            <p>Email: hiring@retrobitproductions.com</p>
+            <p>Email: <a href="mailto:hiring@retrobitproductions.com">hiring@retrobitproductions.com</a></p>
             <p>Phone: (513)645-6469</p>
-            <p>Twitter: @lowbitproductions</p>
+            <p>X/Twitter: @retrobitproductions</p>
          </section>
          <section>
             <p>2025-2026 Retro-Bit Productions</p>
@@ -113,10 +113,11 @@
       </footer>
    </div>
 
-   <script>
-      $("navMobile").click(function() {
-         $(this).find(".inner").slideToggle("slow");
-      });
+   <script> 
+    $(".nav-mobile").click(function (e) {
+      e.preventDefault();  // prevents the # jump
+      $(this).find(".inner").slideToggle("slow");
+    });
    </script>
 
 </body>

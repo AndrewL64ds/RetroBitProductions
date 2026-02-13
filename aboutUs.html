@@ -16,7 +16,7 @@
 <body>
    <div class="wrapper">
       <header>
-         <img src="images/logo.png" alt="">
+         <img src="images/logos/retrobit.png" alt="Retro-Bit Logo">
          <nav>
             <ul>
                <li><a href="index.html">Home</a></li>
@@ -25,7 +25,7 @@
                <li><a href="news.html">News</a></li>
             </ul>
          </nav>
-         <navMobile>
+         <nav class="nav-mobile">
             <h2><a href="#">↓ Tap to Show Pages ↓</a></h2>
             <div class="inner">
                <ul>
@@ -35,54 +35,73 @@
                   <li><a href="news.html">News</a></li>
                </ul>
             </div>
-         </navMobile>
+         </nav>
       </header>
       <div class="headerImage">
          <img class="headerImage" src="images/placeholder.png" alt="">
       </div>
+
       <main>
          <h1>About Us</h1>
          <p>Founded by a gamer who has a passion for film-making, Retro-Bit Productions was founded to not only make our own productions, but also to assist others with theirs.</p>
          <h2>The Crew</h2>
-         <h3>Darrell</h3>
-         <bio>
-            <img src="images/icons/darrell.png" alt="Picture of Darrell"></img>
-            <p>Darrell is the founder and CEO of Retro-Bit Productions.</p>
-         </bio>
-         <h3>Emmarelle</h3>
-         <bio>
-            <img src="images/icons/emmarelle.png" alt="Picture of Emmarelle"></img>
-            <p>Helping us keep our business in check, Emmarelle is the secretary of the studio.</p>
-
-         </bio>
-         <h3>Filliam</h3>
-         <bio>
-            <img src="images/icons/filliam.png" alt="Picture of Filliam"></img>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-         </bio>
-         <h3>SA64</h3>
-            <bio>
-               <a href="aboutUsHidden.html"><img src="images/icons/sa64.gif" alt="Picture of SA64" class="interactable"></img></a>
+         <div class="bio">
+            <img class="bioIcon" src="images/icons/darrell.png" alt="Picture of Darrell"></img>
+            <div>
+               <h3>Darrell</h3>
+               <p>Darrell is the founder and CEO of Retro-Bit Productions.</p>
+               <ul>
+                  <li><img title="Twitter / X" src="images/socials/twitter.png" alt="Twitter Icon" class="icon"><a href="https://www.twitter.com/@DarrellRetroBit">@DarrellRetroBit</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="bio">
+            <img class="bioIcon" src="images/icons/emmarelle.png" alt="Picture of Emmarelle"></img>
+            <div>
+               <h3>Emmarelle</h3>
+               <p>Helping us keep our business in check, Emmarelle is the secretary of the studio.</p>
+               <ul>
+                  <li><img title="Twitter / X" src="images/socials/twitter.png" alt="Twitter Icon" class="icon"><a href="https://www.twitter.com">@emmarelle</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="bio">
+            <img class="bioIcon" src="images/icons/filliam.png" alt="Picture of Filliam"></img>
+            <div>
+               <h3>Filliam</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+               <ul>
+                  <li><img title="Twitter / X" src="images/socials/twitter.png" alt="Twitter Icon" class="icon"><a href="https://www.twitter.com/@keepitfill">@keepitfill</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="bio">
+            <a href="aboutUsHidden.html"><img class="bioIconInteractable" src="images/icons/sa64.gif" alt="Picture of SA64" title="Test" class="interactable"></img></a>
+            <div>
+               <h3>SA64</h3>
                <p>SA64 is an aspiring game developer who has a love for video games new and old.</p>
                <ul>
-                  <li><img src="images/socials/youtube.png" alt="YouTube Icon" class="icon"><a href="https://www.youtube.com/@sa64ds">SA64ds</a></li>
-                  <li><img src="images/socials/twitch.png" alt="Twitch Icon" class="icon"><a href="https://www.twitch.tv/sa64ds">SA64ds</a></li>
-                  <li><img src="images/socials/twitter.png" alt="Twitter Icon" class="icon"><a href="https://www.twitter.com/@sa64ds">@sa64ds</a></li>
-                  <li><img src="images/socials/bluesky.png" alt="Bluesky Icon" class="icon"><a href="https://bsky.app/profile/sa64ds.github.io">@sa64ds.github.io</a></li>
+                  <li><img title="YouTube" src="images/socials/youtube.png" alt="YouTube Icon" class="icon"><a href="https://www.youtube.com/@sa64ds">SA64ds</a></li>
+                  <li><img title="Twitch" src="images/socials/twitch.png" alt="Twitch Icon" class="icon"><a href="https://www.twitch.tv/sa64ds">SA64ds</a></li>
+                  <li><img title="Twitter / X" src="images/socials/twitter.png" alt="Twitter Icon" class="icon"><a href="https://www.twitter.com/@sa64ds">@sa64ds</a></li>
+                  <li><img title="Bluesky" src="images/socials/bluesky.png" alt="Bluesky Icon" class="icon"><a href="https://bsky.app/profile/sa64ds.github.io">@sa64ds.github.io</a></li>
                </ul>
-            </bio>
-            <h3>Gem</h3>
-            <bio>
-               <img src="images/icons/gem.png" alt="Picture of Gem"></img>
+            </div>
+         </div>
+         <div class="bio">
+            <img class="bioIcon" src="images/icons/gem.png" alt="Picture of Gem"></img>
+            <div>
+               <h3>Gem</h3>
                <p>Gem is our synthetic companion with a very bubbly personality.</p>
-            </bio>
+            </div>
+         </div>
       </main>
       <footer>
          <section>
             <h3>Contact Us</h3>
-            <p>Email: hiring@retrobitproductions.com</p>
+            <p>Email: <a href="mailto:hiring@retrobitproductions.com">hiring@retrobitproductions.com</a></p>
             <p>Phone: (513)645-6469</p>
-            <p>Twitter: @lowbitproductions</p>
+            <p>X/Twitter: @retrobitproductions</p>
          </section>
          <section>
             <p>2025-2026 Retro-Bit Productions</p>
@@ -92,10 +111,10 @@
    </div>
 
    <script>
-      $("navMobile").click(function() {
+      $("navMobile").click(function () {
          $(this).find(".inner").slideToggle("slow");
       });
    </script>
 
 </body>
-   </div>
+</div>

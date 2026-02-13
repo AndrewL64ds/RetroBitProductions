@@ -1,4 +1,26 @@
 body {
-   background-color: black;
+   background-color: purple;
    color: white;
+}
+
+.wrapper {
+   margin: auto;
+   max-width: 50rem;
+   background-color: black;
+   padding: 1rem;
+}
+
+.section {
+   background-color: purple;
+   border: white 2px dashed;
+   padding: 1rem;
+   margin: 1rem;
+}
+
+h2 {
+   font-size: x-large;
+}
+
+ul {
+   padding-left: 1rem;
 }
