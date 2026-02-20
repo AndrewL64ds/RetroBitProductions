@@ -110,10 +110,11 @@
       </footer>
    </div>
 
-   <script>
-      $("navMobile").click(function () {
-         $(this).find(".inner").slideToggle("slow");
-      });
+   <script> 
+    $(".nav-mobile").click(function (e) {
+      e.preventDefault();  // prevents the # jump
+      $(this).find(".inner").slideToggle("slow");
+    });
    </script>
 
 </body>

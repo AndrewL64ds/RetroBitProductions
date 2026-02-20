@@ -40,7 +40,7 @@
       <main>
          <h1>Our Content</h1>
          <p></p>
-         <img src="images/sa64ds/logo.png">
+         <img src="images/logos/sa64.png" alt="SA64 Logo">
          <div class="media-gallery">
             <div class="media-item">
                <img class="media-image" src="images/content/switch2.png" alt="Thumbnail for 'Is the Switch 2 worth it?'">
@@ -64,10 +64,11 @@
       </footer>
    </div>
 
-   <script>
-      $("navMobile").click(function() {
-         $(this).find(".inner").slideToggle("slow");
-      });
+   <script> 
+    $(".nav-mobile").click(function (e) {
+      e.preventDefault();  // prevents the # jump
+      $(this).find(".inner").slideToggle("slow");
+    });
    </script>
 
 </body>

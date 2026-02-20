@@ -258,6 +258,10 @@ main section:last-of-type {
    z-index: 0;
 }
 
+.indexSecret img {
+   width: 32px;
+}
+
 .indexSecret:hover {
    cursor: pointer;
    transform: scale(1.1);
@@ -273,6 +277,14 @@ main section:last-of-type {
 .contentSecret:hover {
    cursor: pointer;
    transform: scale(1.1);
+}
+
+.newsSecret {
+   image-rendering: pixelated;
+}
+
+.newsSecret img {
+   width: 256px;
 }
 
 .interactable {
