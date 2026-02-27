@@ -1,0 +1,35 @@
+body {
+      background : #333;
+}
+
+.dialogue-box
+{
+    background : black;
+
+    /* It may not look like it, but dynamic units like `vw` and `%` can
+       work like fixed units if everything is proportional to each other */
+    width : 91.67vw;
+    height : 18.06vw;
+    padding : 2.78vw;
+    border : 0.83vw solid white;
+    font-family : "lightweight"; /* Use any font */
+    font-size : 4.44vw;
+    line-height : 6.11vw;
+    margin: auto;
+}
+
+.dialogue-line
+{
+    width: 100%;
+    color: white;
+}
+
+.dialogue-box
+{
+    visibility : hidden;
+}
+
+.dialogue-box[data-enabled="true"]
+{
+    visibility : visible;
+}

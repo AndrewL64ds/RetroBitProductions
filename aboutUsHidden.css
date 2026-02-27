@@ -1,6 +1,15 @@
+@font-face {
+   font-family: 'Low Pixel';
+   src: url('fonts/LowresPixel-Regular.otf') format('opentype');
+   font-weight: normal;
+   font-style: normal;
+}
+
 body {
    background-image: url(images/secret/journal/bg.png);
    background-size: 32px;
+   background-attachment: fixed;
+   background-color: #174199;
 }
 
 .wrapper {
@@ -9,6 +18,8 @@ body {
    padding: 1rem;
    background-color: white;
 }
+
+p {font-family: "Low Pixel", system-ui;}
 
 h1 {
    text-align: center;
