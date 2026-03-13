@@ -7,6 +7,7 @@
 
 body {
    background-image: url(images/secret/spark/bg.png);
+   color: white;
 }
 
 .wrapper {
@@ -18,8 +19,8 @@ body {
    padding: 1rem;
 }
 
-main {
-   padding: 1rem;
+main p {
+   padding-bottom: 1rem;
    font-family: 'Helvetica';
    color: white;
 }
@@ -41,14 +42,40 @@ h2 {
    color: red;
 }
 
+h3 {
+   font-family: 'Helvetica Rounded Bold', system-ui;
+   color: red;
+   margin-bottom: 0.25rem;
+}
+
 bio {
    display: grid;
    grid-template-columns: 1fr 2fr;
 }
 bio img {
    image-rendering: pixelated;
-   width: 128px;
+   width: 256px;
    margin: auto;
    border: rgb(140, 0, 0) 5px solid;
    grid-row: span 2;
+}
+
+footer {
+   font-family: 'Helvetica Rounded Bold', system-ui;
+   text-align: right;
+   margin-top: 1rem;
+   margin: 1rem;
+}
+
+footer p {
+   margin-bottom: 1rem;
+}
+
+footer a {
+   color: white;
+}
+
+footer a:hover {
+   color: gray;
+   text-decoration: underline;
 }

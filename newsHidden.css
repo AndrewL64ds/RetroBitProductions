@@ -14,15 +14,28 @@ body {
    background-color: purple;
    border: white 2px dashed;
    padding: 1rem;
-   margin: 1rem;
+   margin-bottom: 1rem;
+}
+
+h1 {
+   margin-bottom: 8px;
 }
 
 h2 {
    font-size: x-large;
 }
 
+h3 {
+   font-size: large;
+}
+
 ul {
    padding-left: 1rem;
+   margin-bottom: 1rem;
+}
+
+ul:last-of-type {
+   margin: 0;
 }
 
 a {

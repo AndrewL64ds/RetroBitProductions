@@ -21,8 +21,8 @@ body {
 
 .wrapper {
    background-color: #a2a2a2;
-   border-left: black 5px solid;
-   border-right: black 5px solid;
+   border-left: black 4px solid;
+   border-right: black 4px solid;
    max-width: 70rem;
    margin: 0 auto;
 }
@@ -53,9 +53,11 @@ header img {
 }
 
 .headerImage {
-   margin: 0 auto;
+   image-rendering: pixelated;
+   width: 100%;
    display: block;
-   background-color: white;
+   border-top: black 4px solid;
+   border-bottom: black 4px solid;
 }
 
 .headerLogo {
@@ -271,7 +273,8 @@ ul {
 .indexSecret {
    image-rendering: pixelated;
    position: absolute;
-   bottom: -60%;
+   left: 15%;
+   bottom: -85%;
 }
 
 .indexSecret img {
